@@ -172,11 +172,16 @@ location / {
 
 # Leccion 2
 ## Preparar un entorno y cuentas para lanzar builds
-
+=======
 ```
 sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
 sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
 yum update
+<<<<<<< HEAD
 ```
 
 -- TESTING BRANCHES
+=======
+``
+>>>>>>> 7d51250f07c222dedc89841735877950b5affa46
+>>>>>>> parent of e0f0293... Eliminando lineas innecesarias
